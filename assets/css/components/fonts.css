@@ -1,0 +1,29 @@
+h1, .h1 {font-size: 52px;}
+h2, .h2 {font-size: 45px;}
+h3, .h3 {font-size: 35px;}
+h4, .h4 {font-size: 30px;}
+h5, .h5 {font-size: 25px;}
+p, i, li {font-size: 20px;}
+
+li {margin-left: 1.25em}
+
+h1, h2, h3, h4, h5, p, li {
+    margin-bottom: 15px;
+    line-height: 1.5em;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}

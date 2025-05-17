@@ -1,0 +1,140 @@
+@import "import.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    box-sizing: border-box;
+}
+
+.page {
+    min-height: 100vh;
+}
+
+.header {
+    background: #2A385C;
+    padding: 10px 0;
+}
+
+.header a .logo:hover {
+    text-decoration: none;
+}
+
+#header-title {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+    font-size: 52px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#user-info {
+    position: relative;
+    right: 0;
+    color: #fff;
+}
+
+#logout a {
+    color: #fff;
+}
+
+.footer {
+    margin-top: 30px;
+    background: #2A385C;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.footer a {
+    color: #5CA9A9;
+}
+
+.footer p {
+    font-size: 0.85em;
+}
+
+#copy {
+    font-size: 0.85em;
+}
+
+.slogan {
+    background: #2A385C;
+}
+
+.slogan h3 {
+    color: #fff;
+    text-shadow: 0 5px #000;
+}
+
+.welcome  h3 {
+    color: #205252;
+}
+
+.students h3, .orders h3, .groups h3, .grades h3 {
+    color: #205252;
+}
+
+.welcome img {
+    width: 200px;
+    margin-right: 30px;
+}
+
+.welcome .item {
+    margin: 10px 0;
+    border: 2px solid #2A385C;
+    border-radius: 50px;
+    padding: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: #000;
+}
+
+.welcome a .item:hover {
+    box-shadow: 5px 5px 2px 1px #2A385C;
+}
+
+.welcome h5 {
+    color: #205252;
+}
+
+.nav {
+    z-index: 1;
+    padding: 10px 0;
+    background: #fff;
+    position: sticky;
+    top: 0px;
+    border-bottom: solid 1px #2A385C;
+}
+.nav a {
+    position: relative;
+    font-size: 22px;
+    color: #2A385C;
+    text-decoration: none;
+    transition: color 0.7s;
+}
+
+.nav a:hover {
+    color: #C4A76B;
+}
+
+.nav a::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #2A385C;
+    transition: width 0.7s, background 0.7s;
+}
+
+.nav a:hover:after {
+    width: 100%;
+    background: #C4A76B;
+}

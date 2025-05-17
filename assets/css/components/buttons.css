@@ -1,0 +1,46 @@
+.btn-dialog {
+    width: 220px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    background: #d8d8d8;
+    border: none;
+    border-radius: 8px;
+    color: #2A385C;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-dialog:hover, .btn-dialog:focus {
+    color: #fff;
+    background: #2A385C;
+}
+
+#addDialogMove, #addDialogOrders, #addDialogGroups, #addDialogGrades, #addDialogSubject, #addDialogStudents {
+    display: none;
+    position: fixed;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#addDialogMove .btns, #addDialogOrders .btns, #addDialogGroups .btns, #addDialogGrades .btns, #addDialogSubject .btns, #addDialogStudents .btns {
+    margin-top: 20px;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
